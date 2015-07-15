@@ -1,0 +1,140 @@
+[13-Feb-2015 10:39:22 Asia/Kolkata] PHP Fatal error:  Call to undefined function current_full_url() in /home2/rtrip/public_html/application/controllers/flights.php on line 24
+[13-Feb-2015 11:32:21 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$current' (T_VARIABLE) in /home2/rtrip/public_html/application/controllers/login.php on line 139
+[13-Feb-2015 11:34:05 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$current' (T_VARIABLE) in /home2/rtrip/public_html/application/controllers/login.php on line 139
+[13-Feb-2015 11:34:15 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$current' (T_VARIABLE) in /home2/rtrip/public_html/application/controllers/login.php on line 139
+[13-Feb-2015 11:38:12 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$current' (T_VARIABLE) in /home2/rtrip/public_html/application/controllers/login.php on line 139
+[13-Feb-2015 11:39:21 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '{' in /home2/rtrip/public_html/application/controllers/login.php on line 138
+[13-Feb-2015 12:30:14 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[13-Feb-2015 13:19:02 Asia/Kolkata] PHP Fatal error:  SOAP-ERROR: Encoding: object has no 'ChangeRequestModeComment' property in /home2/rtrip/public_html/application/controllers/api/flights.php on line 7162
+[13-Feb-2015 13:19:02 Asia/Kolkata] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: object has no 'ChangeRequestModeComment' property in /home2/rtrip/public_html/application/controllers/api/flights.php:7162
+Stack trace:
+#0 /home2/rtrip/public_html/application/controllers/api/flights.php(7162): SoapClient->__call('SendChangeReque...', Array)
+#1 [internal function]: Flights->cancel_request()
+#2 /home2/rtrip/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home2/rtrip/public_html/index.php(202): require_once('/home2/rtrip/pu...')
+#4 {main}
+  thrown in /home2/rtrip/public_html/application/controllers/api/flights.php on line 7162
+[13-Feb-2015 13:19:22 Asia/Kolkata] PHP Fatal error:  SOAP-ERROR: Encoding: object has no 'ChangeRequestModeComment' property in /home2/rtrip/public_html/application/controllers/api/flights.php on line 7162
+[13-Feb-2015 13:19:22 Asia/Kolkata] PHP Fatal error:  Uncaught SoapFault exception: [Client] SOAP-ERROR: Encoding: object has no 'ChangeRequestModeComment' property in /home2/rtrip/public_html/application/controllers/api/flights.php:7162
+Stack trace:
+#0 /home2/rtrip/public_html/application/controllers/api/flights.php(7162): SoapClient->__call('SendChangeReque...', Array)
+#1 [internal function]: Flights->cancel_request()
+#2 /home2/rtrip/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home2/rtrip/public_html/index.php(202): require_once('/home2/rtrip/pu...')
+#4 {main}
+  thrown in /home2/rtrip/public_html/application/controllers/api/flights.php on line 7162
+[14-Feb-2015 00:13:38 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 114
+[14-Feb-2015 08:33:53 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '{' in /home2/rtrip/public_html/application/controllers/login.php on line 147
+[14-Feb-2015 09:58:09 Asia/Kolkata] PHP Fatal error:  Uncaught SoapFault exception: [soap:Client] Server was unable to read request. ---> There is an error in XML document (2, 415). ---> Input string was not in a correct format. in /home2/rtrip/public_html/application/controllers/cab_api/cabs.php:323
+Stack trace:
+#0 /home2/rtrip/public_html/application/controllers/cab_api/cabs.php(323): SoapClient->__call('SearchCabs_InTr...', Array)
+#1 [internal function]: Cabs->search_cabs()
+#2 /home2/rtrip/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home2/rtrip/public_html/index.php(202): require_once('/home2/rtrip/pu...')
+#4 {main}
+  thrown in /home2/rtrip/public_html/application/controllers/cab_api/cabs.php on line 323
+[14-Feb-2015 10:38:27 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '{' in /home2/rtrip/public_html/application/controllers/login.php on line 147
+[14-Feb-2015 10:38:40 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '{' in /home2/rtrip/public_html/application/controllers/login.php on line 147
+[15-Feb-2015 10:08:09 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[15-Feb-2015 10:12:34 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[15-Feb-2015 10:22:31 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[16-Feb-2015 10:32:13 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$total_tax_fare_inbound' (T_VARIABLE) in /home2/rtrip/public_html/application/views/flights/traveller_return_book_page.php on line 57
+[16-Feb-2015 10:32:50 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '$total_tax_fare_inbound' (T_VARIABLE) in /home2/rtrip/public_html/application/views/flights/traveller_return_book_page.php on line 57
+[17-Feb-2015 17:32:42 Asia/Kolkata] PHP Fatal error:  Call to a member function getTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 14
+[17-Feb-2015 17:44:37 Asia/Kolkata] PHP Fatal error:  Call to a member function getTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 14
+[17-Feb-2015 17:48:21 Asia/Kolkata] PHP Fatal error:  Call to a member function getTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 14
+[17-Feb-2015 17:54:36 Asia/Kolkata] PHP Fatal error:  Call to a member function getTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 14
+[17-Feb-2015 18:02:35 Asia/Kolkata] PHP Fatal error:  Call to a member function getTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 14
+[21-Feb-2015 00:25:54 Asia/Kolkata] PHP Fatal error:  Uncaught SoapFault exception: [soap:Client] Server was unable to read request. ---> There is an error in XML document (2, 383). ---> Input string was not in a correct format. in /home2/rtrip/public_html/application/controllers/cab_api/cabs.php:159
+Stack trace:
+#0 /home2/rtrip/public_html/application/controllers/cab_api/cabs.php(159): SoapClient->__call('DestinationCity...', Array)
+#1 [internal function]: Cabs->destination_cities()
+#2 /home2/rtrip/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home2/rtrip/public_html/index.php(202): require_once('/home2/rtrip/pu...')
+#4 {main}
+  thrown in /home2/rtrip/public_html/application/controllers/cab_api/cabs.php on line 159
+[21-Feb-2015 00:39:47 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[21-Feb-2015 10:34:37 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[21-Feb-2015 10:57:08 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[21-Feb-2015 10:58:04 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[21-Feb-2015 11:16:46 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[21-Feb-2015 15:37:00 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[21-Feb-2015 15:52:59 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[21-Feb-2015 15:54:40 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[21-Feb-2015 15:56:05 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[21-Feb-2015 16:04:59 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 114
+[21-Feb-2015 16:05:35 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 114
+[21-Feb-2015 16:11:25 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 114
+[21-Feb-2015 18:08:36 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[23-Feb-2015 16:20:58 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[23-Feb-2015 16:22:01 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[23-Feb-2015 19:22:32 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[24-Feb-2015 10:09:53 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Exception' with message 'Mandatory parameter amount is empty' in /home2/rtrip/public_html/application/lib/payu.php:434
+Stack trace:
+#0 /home2/rtrip/public_html/application/lib/payu.php(46): Misc::show_page(Array)
+#1 /home2/rtrip/public_html/application/controllers/cabs.php(103): pay_page(Array, 'eCwWELxi')
+#2 [internal function]: Cabs->payment_gateway()
+#3 /home2/rtrip/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home2/rtrip/public_html/index.php(202): require_once('/home2/rtrip/pu...')
+#5 {main}
+  thrown in /home2/rtrip/public_html/application/lib/payu.php on line 434
+[24-Feb-2015 10:42:23 Asia/Kolkata] PHP Fatal error:  Uncaught SoapFault exception: [soap:Client] Server was unable to read request. ---> There is an error in XML document (2, 415). ---> Input string was not in a correct format. in /home2/rtrip/public_html/application/controllers/cab_api/cabs.php:325
+Stack trace:
+#0 /home2/rtrip/public_html/application/controllers/cab_api/cabs.php(325): SoapClient->__call('SearchCabs_InTr...', Array)
+#1 [internal function]: Cabs->search_cabs()
+#2 /home2/rtrip/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home2/rtrip/public_html/index.php(202): require_once('/home2/rtrip/pu...')
+#4 {main}
+  thrown in /home2/rtrip/public_html/application/controllers/cab_api/cabs.php on line 325
+[24-Feb-2015 10:48:51 Asia/Kolkata] PHP Fatal error:  Uncaught SoapFault exception: [soap:Client] Server was unable to read request. ---> There is an error in XML document (2, 415). ---> Input string was not in a correct format. in /home2/rtrip/public_html/application/controllers/cab_api/cabs.php:325
+Stack trace:
+#0 /home2/rtrip/public_html/application/controllers/cab_api/cabs.php(325): SoapClient->__call('SearchCabs_InTr...', Array)
+#1 [internal function]: Cabs->search_cabs()
+#2 /home2/rtrip/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home2/rtrip/public_html/index.php(202): require_once('/home2/rtrip/pu...')
+#4 {main}
+  thrown in /home2/rtrip/public_html/application/controllers/cab_api/cabs.php on line 325
+[24-Feb-2015 20:49:29 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 114
+[24-Feb-2015 20:50:18 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 114
+[25-Feb-2015 17:44:31 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[25-Feb-2015 17:51:46 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[25-Feb-2015 18:01:48 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[25-Feb-2015 18:08:09 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[25-Feb-2015 18:20:31 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[25-Feb-2015 18:21:55 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[26-Feb-2015 10:19:45 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[26-Feb-2015 12:39:10 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[26-Feb-2015 13:11:05 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[26-Feb-2015 13:26:09 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[26-Feb-2015 13:32:33 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[26-Feb-2015 13:37:05 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[26-Feb-2015 13:38:13 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[27-Feb-2015 09:46:46 Asia/Kolkata] PHP Fatal error:  Uncaught SoapFault exception: [soap:Client] Server was unable to read request. ---> There is an error in XML document (2, 415). ---> Input string was not in a correct format. in /home2/rtrip/public_html/application/controllers/cab_api/cabs.php:325
+Stack trace:
+#0 /home2/rtrip/public_html/application/controllers/cab_api/cabs.php(325): SoapClient->__call('SearchCabs_InTr...', Array)
+#1 [internal function]: Cabs->search_cabs()
+#2 /home2/rtrip/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home2/rtrip/public_html/index.php(202): require_once('/home2/rtrip/pu...')
+#4 {main}
+  thrown in /home2/rtrip/public_html/application/controllers/cab_api/cabs.php on line 325
+[28-Feb-2015 10:06:53 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 46
+[03-Mar-2015 12:45:36 Asia/Kolkata] PHP Fatal error:  Uncaught exception 'Exception' with message 'Mandatory parameter phone is empty' in /home2/rtrip/public_html/application/lib/payu.php:433
+Stack trace:
+#0 /home2/rtrip/public_html/application/lib/payu.php(45): Misc::show_page(Array)
+#1 /home2/rtrip/public_html/application/controllers/cabs.php(106): pay_page(Array, '3sf0jURk')
+#2 [internal function]: Cabs->payment_gateway()
+#3 /home2/rtrip/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#4 /home2/rtrip/public_html/index.php(202): require_once('/home2/rtrip/pu...')
+#5 {main}
+  thrown in /home2/rtrip/public_html/application/lib/payu.php on line 433
+[04-Mar-2015 21:17:13 Asia/Kolkata] PHP Fatal error:  Call to a member function getTemperature() on a non-object in /home2/rtrip/public_html/application/controllers/weather.php on line 14
+[09-Mar-2015 09:12:48 Asia/Kolkata] PHP Fatal error:  Uncaught SoapFault exception: [soap:Client] Server was unable to read request. ---> There is an error in XML document (2, 415). ---> Input string was not in a correct format. in /home2/rtrip/public_html/application/controllers/cab_api/cabs.php:325
+Stack trace:
+#0 /home2/rtrip/public_html/application/controllers/cab_api/cabs.php(325): SoapClient->__call('SearchCabs_InTr...', Array)
+#1 [internal function]: Cabs->search_cabs()
+#2 /home2/rtrip/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home2/rtrip/public_html/index.php(202): require_once('/home2/rtrip/pu...')
+#4 {main}
+  thrown in /home2/rtrip/public_html/application/controllers/cab_api/cabs.php on line 325
+[11-Mar-2015 22:28:20 Asia/Kolkata] PHP Fatal error:  Call to a member function getTemperature() on a non-object in /home2/rtrip/public_html/private/application/controllers/weather.php on line 14
+[12-Mar-2015 20:03:15 Asia/Kolkata] PHP Fatal error:  Call to a member function getMinTemperature() on a non-object in /home2/rtrip/public_html/private/application/controllers/weather.php on line 46

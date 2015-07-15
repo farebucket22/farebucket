@@ -1,0 +1,37 @@
+[19-Mar-2015 21:14:03 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home2/rtrip/public_html/cabsBuses/application/controllers/api/flights.php on line 1431
+[19-Mar-2015 21:15:59 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home2/rtrip/public_html/cabsBuses/application/controllers/api/flights.php on line 1431
+[19-Mar-2015 21:16:03 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home2/rtrip/public_html/cabsBuses/application/controllers/api/flights.php on line 1431
+[19-Mar-2015 21:16:27 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home2/rtrip/public_html/cabsBuses/application/controllers/api/flights.php on line 1431
+[19-Mar-2015 21:18:19 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home2/rtrip/public_html/cabsBuses/application/controllers/api/flights.php on line 3849
+[19-Mar-2015 21:18:24 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home2/rtrip/public_html/cabsBuses/application/controllers/api/flights.php on line 3849
+[19-Mar-2015 21:18:28 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home2/rtrip/public_html/cabsBuses/application/controllers/api/flights.php on line 3849
+[19-Mar-2015 21:18:32 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /home2/rtrip/public_html/cabsBuses/application/controllers/api/flights.php on line 3849
+[19-Mar-2015 21:24:49 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '{' in /home2/rtrip/public_html/cabsBuses/application/models/cab_model.php on line 121
+[19-Mar-2015 21:25:15 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '{' in /home2/rtrip/public_html/cabsBuses/application/models/cab_model.php on line 121
+[19-Mar-2015 21:25:20 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '{' in /home2/rtrip/public_html/cabsBuses/application/models/cab_model.php on line 121
+[19-Mar-2015 21:25:24 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '{' in /home2/rtrip/public_html/cabsBuses/application/models/cab_model.php on line 121
+[20-Mar-2015 17:30:38 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home2/rtrip/public_html/application/views/common/header.php on line 91
+[21-Mar-2015 00:27:53 Asia/Kolkata] PHP Fatal error:  Uncaught SoapFault exception: [soap:Client] Server was unable to read request. ---> There is an error in XML document (2, 383). ---> Input string was not in a correct format. in /home2/rtrip/public_html/application/controllers/cab_api/cabs.php:159
+Stack trace:
+#0 /home2/rtrip/public_html/application/controllers/cab_api/cabs.php(159): SoapClient->__call('DestinationCity...', Array)
+#1 [internal function]: Cabs->destination_cities()
+#2 /home2/rtrip/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home2/rtrip/public_html/index.php(202): require_once('/home2/rtrip/pu...')
+#4 {main}
+  thrown in /home2/rtrip/public_html/application/controllers/cab_api/cabs.php on line 159
+[24-Mar-2015 03:36:50 Asia/Kolkata] PHP Fatal error:  Uncaught SoapFault exception: [soap:Client] Server was unable to read request. ---> There is an error in XML document (2, 383). ---> Input string was not in a correct format. in /home2/rtrip/public_html/application/controllers/cab_api/cabs.php:159
+Stack trace:
+#0 /home2/rtrip/public_html/application/controllers/cab_api/cabs.php(159): SoapClient->__call('DestinationCity...', Array)
+#1 [internal function]: Cabs->destination_cities()
+#2 /home2/rtrip/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home2/rtrip/public_html/index.php(202): require_once('/home2/rtrip/pu...')
+#4 {main}
+  thrown in /home2/rtrip/public_html/application/controllers/cab_api/cabs.php on line 159
+[24-Mar-2015 14:01:32 Asia/Kolkata] PHP Fatal error:  Uncaught SoapFault exception: [soap:Client] Server was unable to read request. ---> There is an error in XML document (2, 383). ---> Input string was not in a correct format. in /home2/rtrip/public_html/application/controllers/cab_api/cabs.php:159
+Stack trace:
+#0 /home2/rtrip/public_html/application/controllers/cab_api/cabs.php(159): SoapClient->__call('DestinationCity...', Array)
+#1 [internal function]: Cabs->destination_cities()
+#2 /home2/rtrip/public_html/system/core/CodeIgniter.php(359): call_user_func_array(Array, Array)
+#3 /home2/rtrip/public_html/index.php(202): require_once('/home2/rtrip/pu...')
+#4 {main}
+  thrown in /home2/rtrip/public_html/application/controllers/cab_api/cabs.php on line 159
